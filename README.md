@@ -30,3 +30,7 @@ Mandarin Affective Speech: https://catalog.ldc.upenn.edu/LDC2007S09
 MSP-Podcast: https://ecs.utdallas.edu/research/researchlabs/msp-lab/MSP-Podcast.html
 
 MSP-Improv: https://ecs.utdallas.edu/research/researchlabs/msp-lab/MSP-Improv.html
+
+## Requirements
+
+transformers 4.18.0
