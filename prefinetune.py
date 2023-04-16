@@ -14,7 +14,7 @@ from transformers import AutoModelForAudioClassification, TrainingArguments, Tra
 import numpy as np
 import pandas
 from sklearn.preprocessing import LabelEncoder
-from load_datasets import load_emotional_prosody, load_esd, load_msp_improv, load_iemocap_valence, load_iemocap_emotion, load_iemocap_arousal, load_iemocap_dominance, load_mandarin_emotion, load_msp_podcast
+from load_datasets import load_esd, load_msp_improv, load_iemocap_valence, load_iemocap_emotion, load_iemocap_arousal, load_iemocap_dominance, load_mandarin_emotion, load_msp_podcast
 from argparse import ArgumentParser
 from utils import MultiFinetuningTrainer
 
@@ -53,8 +53,6 @@ def preprocess_function(examples):
 def load_corpus(corpus):
     if corpus == "ESD":
         loader = load_esd
-    elif corpus == "emotional_prosody":
-        loader = load_emotional_prosody
     elif corpus == "msp_improv":
         loader = load_msp_improv
     elif corpus == "iemocap_valence":
