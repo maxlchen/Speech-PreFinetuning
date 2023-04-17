@@ -36,3 +36,7 @@ MSP-Improv: https://ecs.utdallas.edu/research/researchlabs/msp-lab/MSP-Improv.ht
 ## Requirements
 
 transformers 4.18.0
+
+## Notes
+
+Currently, the Trainer class for multitask learning only has single GPU support.
