@@ -6,7 +6,7 @@ Citation:
 @article{chen2023pre,
   title={Pre-Finetuning for Few-Shot Emotional Speech Recognition},
   author={Chen, Maximillian and Yu, Zhou},
-  journal={arXiv preprint arXiv:2302.12921},
+  journal={INTERSPEECH 2023},
   year={2023}
 }
 ```
